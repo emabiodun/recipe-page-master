@@ -1,0 +1,58 @@
+body{
+    padding: 0 50px 0 50px;
+}
+
+header{
+    display: flex;
+    width: 50%;
+    align-items: baseline;
+}
+header>h4{
+    margin-left: 5px;
+}
+
+article>img{
+    height: 80vh;
+    width: 100%;
+}
+
+.ins{
+    display: flex;
+    width: 50%;
+    align-items: baseline;
+}
+#num>h4{
+    background-color: orange;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    border-radius: 5px;
+}
+#text>h4{
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width:500px){
+    body{
+        padding: 0 50px 0 40px;
+    }
+    
+    header{
+        display: flex;
+        width: 100%;
+        align-items: baseline;
+    }
+    header>h4{
+        margin-left: 5px;
+    }
+    
+    article>img{
+        height: 30vh;
+        width: 100%;
+    }
+
+    .ins{
+        display: flex;
+        width: 100%;
+    }
+}
